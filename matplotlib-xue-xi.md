@@ -1,7 +1,3 @@
----
-description: Matplotlib是python提供的一个强大的数据可视化工具，可以画2D、3D图，还可以做动画，对于我们做数据分析和可视化非常有帮助。
----
-
 # Matplotlib学习
 
 
