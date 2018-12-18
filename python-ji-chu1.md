@@ -89,7 +89,11 @@ Jupyter Notebook 是一个 Web 应用程序，便于创建和共享文学化程�
 
 ![](.gitbook/assets/anaconda_install_17.PNG)
 
-打开的首页显示的是Jupyter Notebook的根目录，一般就是用户目录。点击右上方的"New"，出现一个下拉框，选择Notebook，新建一个Notebook，这时浏览器会打开一个新页面。
+打开的首页显示的是Jupyter Notebook的根目录，一般就是用户目录。点击右上方的"New"，出现一个下拉框，选择Notebook，新建一个Notebook。
+
+![](.gitbook/assets/anaconda_install_21.PNG)
+
+这时浏览器会打开一个新页面。
 
 ![](.gitbook/assets/anaconda_install_18.PNG)
 

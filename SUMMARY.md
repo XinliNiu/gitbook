@@ -2,7 +2,7 @@
 
 * [金融从业者的机器学习书](README.md)
 * [机器学习与人工智能](ji-qi-xue-xi-yu-ren-gong-zhi-neng.md)
-* [Python基础](python-ji-chu.md)
+* [Python基础](python-ji-chu1.md)
 * [Matplotlib学习](matplotlib-xue-xi.md)
 * [梯度下降算法](ti-du-xia-jiang-suan-fa.md)
 * [线性回归\(Linear Regression\)](xian-xing-hui-gui.md)
