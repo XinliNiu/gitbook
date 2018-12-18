@@ -38,8 +38,6 @@ Jupyter Notebook 是一个 Web 应用程序，便于创建和共享文学化程�
 
 ![](.gitbook/assets/anaconda_install_9.PNG)
 
- 
-
 ![](.gitbook/assets/anaconda_install_10.PNG)
 
 安装时间较长，需要耐心等待。
@@ -74,15 +72,6 @@ Jupyter Notebook 是一个 Web 应用程序，便于创建和共享文学化程�
 
 ![](.gitbook/assets/anaconda_install_16.PNG)
 
-  
-
-
-  
-
-
-  
-
-
 ### 第一个Python程序
 
 在Anaconda Navigator中启动Jupyter Notebook，会自动打开一个网页，这个网页就是Jupyter Notebook。
@@ -104,11 +93,6 @@ Jupyter Notebook 是一个 Web 应用程序，便于创建和共享文学化程�
 在Jupyter Notebook中，我们还可以画图形，对数据进行可视化，例如
 
 ![](.gitbook/assets/anaconda_install_20.PNG)
-
-  
-
-
-
 
 ## 函数的参数
 
@@ -168,7 +152,7 @@ def print_temperature(type='C', num):
       print (num,'摄氏度')
    if type == 'F':
       print (num,'华氏度')
-      
+
 #运行报错
     def print_temperature(type='C', num):
                          ^
@@ -208,7 +192,7 @@ def sum(a, b, *args):
    count = len(args)
    for i in range(0, count):
      sum = sum + args[i]
-   return sum 
+   return sum
 ```
 
 {% hint style="danger" %}
@@ -236,8 +220,6 @@ TypeError: sum() missing 1 required keyword-only argument: 'x'
 sum(1,2,x=3) #y=1默认参数
 sum(1,2,x=3,y=4) #修改了默认参数
 ```
-
-
 
 ### 关键字参数
 
