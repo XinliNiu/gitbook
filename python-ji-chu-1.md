@@ -386,6 +386,79 @@ y = np.dot(np.array([[1,2,3]]), np.array([[4],[5],[6]]))
 
 ### 基本操作
 
+#### 属性
+
+```python
+a = np.array([[1,2,3],
+              [4,5,6]])
+#维数
+print (a.ndim) #结果:2
+
+#形状 
+print (a.shape) #结果:(2, 3)
+
+#所有元素个数
+print (a.size) #结果: 6
+
+#元素类型
+print (a.dtype) #结果: int64
+
+#元素大小(字节)
+print (a.itemsize) #结果: 8
+
+#数据(打印数据存储的地址，一般不用)
+print (a.data)  #结果: <memory at 0x120e5d120> (注：不固定)
+```
+
+#### 创建ndarray
+
+在实际应用中，我们一般读取文件中的数据\(例如csv文件\)初始化一个ndarray。
+
+
+
+另外，还有下面这些比较有用的初始化方法。
+
+通过list初始化一个ndarray。
+
+```python
+import numpy as np
+a = np.array([1,2,3])
+b = np.array([[3,4,5],
+              [7,8,9]])
+c = np.array([1,2,3,4]).reshape(2,2)
+```
+
+通过序列初始化，包括arange和linspace，前者指定步长，后者指定序列个数
+
+```python
+import numpya as np
+#从1开始，步长为1，最大为5，不包括5
+a = np.arange(1,5,1) # [1,2,3,4]
+#从0开始，步长为0.1,最大为0.5，不包括0.5
+a = np.arange(0,0.5,0.1) #[0,0.1,0.2,0.3,0.4]
+#从0-5产生3个数
+a = np.linspace(0,5,3) #[0,2.5,5]
+```
+
+可以产生全0或者全1的数组。
+
+```python
+import numpy as np
+
+a = np.zeros(3)
+b = np.zeros((3,5),dtype='int16')
+c = np.ones((3,4,5))
+```
+
+随机初始化
+
+```python
+import numpy as np
+
+a = np.random.rand(3,2) #0-1之间
+c = 100 + np.random.rand(3,4,5) #100-101之间
+```
+
 
 
 ### 广播原则\(Broadcasting Rule\)
