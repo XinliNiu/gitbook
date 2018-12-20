@@ -12,7 +12,7 @@ Though both supervised and reinforcement learning use mapping between input and 
 
 As compared to unsupervised learning, reinforcement learning is different in terms of goals. While the goal in unsupervised learning is to find similarities and differences between data points, in reinforcement learning the goal is to find a suitable action model that would maximize the total cumulative reward of the agent. The figure below represents the basic idea and elements involved in a reinforcement learning model.
 
-![&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x6A21;&#x578B;](.gitbook/assets/reinforcement-learning-figure.jpg)
+![&#x5F3A;&#x5316;&#x5B66;&#x4E60;&#x6A21;&#x578B;](../.gitbook/assets/reinforcement-learning-figure.jpg)
 
 举一个极简单的例子，一个机器人要完成一项简单的任务，就是从A点到B点。机器人能完成的操作也很简单，就是朝某个方向前进有限的距离，而机器人每走完一次，能够测量到它与目的地的距离。如何让机器人从一开始什么都不知道，到能够以最快的速度从A点走到B点？也就是如何让机器人学会从A点走直线到B点。
 
