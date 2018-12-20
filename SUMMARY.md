@@ -1,6 +1,7 @@
 # Table of contents
 
-* [金融从业者的机器学习书](README.md)
+## 金融从业者的机器学习书
+
 * [机器学习与人工智能](ji-qi-xue-xi-yu-ren-gong-zhi-neng.md)
 * [Matplotlib学习](matplotlib-xue-xi.md)
 * [Python基础](python-ji-chu-1.md)
@@ -17,5 +18,5 @@
 
 ## 机器学习与小游戏
 
-* [推箱子\(Sokoban\)](ji-qi-xue-xi-yu-xiao-you-xi/tui-xiang-zi-sokoban.md)
+* [推箱子\(Sokoban\)](GameAndMl/Sokoban.md)
 
