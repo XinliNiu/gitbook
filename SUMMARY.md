@@ -15,3 +15,7 @@
 
 * [Class文件分析](yong-python-xie-jvm/class-wen-jian-fen-xi.md)
 
+## 机器学习与小游戏
+
+* [推箱子\(Sokoban\)](ji-qi-xue-xi-yu-xiao-you-xi/tui-xiang-zi-sokoban.md)
+
