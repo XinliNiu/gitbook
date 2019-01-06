@@ -80,30 +80,68 @@ $$X = \{CurrentState, 4), Y=0$$
 
 
 
+## 强化学习分类
+
+### Model-Based vs Model-Free
 
 
 
 
 
+### Policy-Iteration vs Value-Iteration
 
 
 
+## 马尔可夫过程\(Markov Process\)
 
+马尔科夫决策过程是对强化学习\(RL\)问题的数学描述。几乎所有的RL问题都能通过MDPs来描述：
 
-```
-$ give me super-powers
-```
+最优控制问题可以用MDPs来描述; 
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+部分观测环境可以转化成POMDPs; 
 
-Once you're strong enough, save the world:
+赌博机问题是只有一个状态的MDPs;
 
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+### 马尔可夫性\(Markov Property\)
+
+马尔可夫性质是概率论中的一个概念，因为俄国数学家安德雷·马尔可夫得名。当一个随机过程在给定现在状态及所有过去状态情况下，其未来状态的条件概率分布仅依赖于当前状态；换句话说，在给定现在状态时，它与过去状态（即该过程的历史路径）是条件独立的，那么此随机过程即具有马尔可夫性质。具有马尔可夫性质的过程通常称之为马尔可夫过程。
+
+定义：如果在t时刻的状态 $$S_t$$ 满足如下等式，那么这个状态被称为马尔科夫状态，或者说该状态满足马尔科夫性。
+
+$$
+P[S_{t+1}|S_t]=P[S_{t+1}|S_1,S_2,...,S_{t-1},S_t]
+$$
+
+举例：
+
+* 下棋时，只关心当前的棋局，不关心之前的状态
+* 玩推箱子游戏时，只关心现在的状态
+
+### 状态转移矩阵
+
+状态转移矩阵表示的是任意一个状态转换到另一个状态的概率矩阵。
+
+$$
+P = \begin{bmatrix} p_{11}&p_{12}&...&p_{1n} \\ p_{21} & p_{22}&...&p_{2n} \\ ...&...&...&...\\p_{n1}&p_{n2}&...&p_{nn} \end{bmatrix}
+$$
+
+转移矩阵的每一行相加必定为1。
+
+### 马尔可夫过程\(Markov Process, MP\)
+
+一个马尔科夫过程（MP）是一个无记忆的随机过程，即一些马尔科夫状态的序列。
+
+定义：马尔科夫过程可以由一个二元组\(S,P\)定义。S表示了状态集合，P描述了状态转移矩阵。
+
+### 马尔可夫奖励过程\(Markov Reward Process, MRP\)
+
+MRP在MP的基础上增加了奖励R和衰减系数 $$\gamma$$ ，可以用四元组 $$(S,P,R,\gamma)$$ 表示。
+
+其中奖励R表示在某一时刻t下的状态 $$S_t$$ 转移到下一个状态 $$S_{t+1}$$ 时获取的奖励。
+
+$$
+R_s=E[R_{t+1}|S_t=s]
+$$
 
 
 
