@@ -167,7 +167,7 @@ dict = {0:'-',1:'#',2:'$',3:'.',4:'@',5:'*',6:'+'}
 
 这个照片的像素是400x200，每个元素的像素是100x100，我们把这些元素都用PIL截取出来，为了处理在手动截地图时边缘截的不太精确的问题，在自动截取元素时，位置加上随机3个像素的偏差，并且在名字中加入标签。
 
-```text
+```python
 from PIL import Image
 import random
 im = Image.open("/Users/niuxinli/Desktop/3.png")
