@@ -117,9 +117,13 @@ $$
 对于上述问题，代价函数其实就是
 
 $$
-J=\frac{(1w+b-3.1)^2+(2w+b-5.02)^2+(3w+b-6.92)^2+(4w+b-9.12)^2}{4} \\ 
-\
-\\=7.5w^2+5wb+b^2-35.19w-12.04b+41.4678
+J=\frac{(1w+b-3.1)^2+(2w+b-5.02)^2+(3w+b-6.92)^2+(4w+b-9.12)^2}{4}
+$$
+
+简化后得到
+
+$$
+J=7.5w^2+5wb+b^2-35.19w-12.04b+41.4678
 $$
 
 所以现在的问题就成了如何找到\(w,b\) ,使得J能取得最小值。
@@ -181,9 +185,14 @@ $$
 梯度下降对多元函数同样适用，比如上述J\(w,b\)，更新的策略如下：
 
 $$
-w_{new}=w_{old}-\alpha \frac{\partial J}{\partial w_{old}} \\
-\
+\begin{equation}
+\left\{
+\begin{aligned}
+w_{new}=w_{old}-\alpha \frac{\partial J}{\partial w_{old}} &\\
 b_{new}=b_{old}-\alpha \frac{\partial J}{\partial b_{old}} \\
+\end{aligned}
+\right.
+\end{equation}
 $$
 
 ![&#x591A;&#x5143;&#x51FD;&#x6570;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;](../.gitbook/assets/learnml_19.gif)
