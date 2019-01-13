@@ -20,6 +20,7 @@
 
 ## 机器学习与小游戏
 
+* [深度学习由浅入深](ji-qi-xue-xi-yu-xiao-you-xi/untitled.md)
 * [推箱子\(Sokoban\)](ji-qi-xue-xi-yu-xiao-you-xi/tui-xiang-zi-sokoban.md)
 
 ## Kubernetes学习
