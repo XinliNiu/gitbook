@@ -26,4 +26,9 @@
 ## Kubernetes学习
 
 * [概念](kubernetes-xue-xi/gai-nian.md)
+* [杂记](kubernetes-xue-xi/za-ji.md)
+
+## 杂记
+
+* [Mac安装Node.js和npm](za-ji/mac-an-zhuang-node.js-he-npm.md)
 
