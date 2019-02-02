@@ -21,6 +21,8 @@
 ## 机器学习与小游戏
 
 * [深度学习由浅入深](ji-qi-xue-xi-yu-xiao-you-xi/untitled.md)
+* [逻辑回归](ji-qi-xue-xi-yu-xiao-you-xi/luo-ji-hui-gui.md)
+* [梯度下降与鞍点](ji-qi-xue-xi-yu-xiao-you-xi/ti-du-xia-jiang-yu-an-dian.md)
 * [推箱子\(Sokoban\)](ji-qi-xue-xi-yu-xiao-you-xi/tui-xiang-zi-sokoban.md)
 
 ## Kubernetes学习
@@ -31,4 +33,8 @@
 ## 杂记
 
 * [Mac安装Node.js和npm](za-ji/mac-an-zhuang-node.js-he-npm.md)
+
+## 面试题
+
+* [红包算法](mian-shi-ti/hong-bao-suan-fa.md)
 
