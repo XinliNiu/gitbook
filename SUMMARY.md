@@ -33,6 +33,7 @@
 ## 杂记
 
 * [Mac安装Node.js和npm](za-ji/mac-an-zhuang-node.js-he-npm.md)
+* [灰度系统设计](za-ji/hui-du-xi-tong-she-ji.md)
 
 ## 面试题
 
