@@ -29,6 +29,7 @@
 
 * [概念](kubernetes-xue-xi/gai-nian.md)
 * [杂记](kubernetes-xue-xi/za-ji.md)
+* [内存回收](kubernetes-xue-xi/nei-cun-hui-shou.md)
 
 ## 杂记
 
